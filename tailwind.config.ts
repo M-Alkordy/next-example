@@ -8,11 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      spacing : {
+        '29' : "120px"
       },
+      colors : {
+        'myprimary' : "#FF8500",
+        'mygray' : "#4B4B4B",
+        'myblack' : "#282828"
+      },
+      fontFamily : {
+        "tajawal" : "var(--tajawal-font)"
+      }
     },
+    fontSize : {
+      '2.5xl' : "32px"
+    }
   },
   plugins: [],
 };
